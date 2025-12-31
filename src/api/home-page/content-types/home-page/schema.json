@@ -12,6 +12,9 @@
   "pluginOptions": {},
   "attributes": {
     "heroDescription": {
+      "type": "text"
+    },
+    "heroDescriptionRichtext": {
       "type": "blocks"
     },
     "heroImg": {
