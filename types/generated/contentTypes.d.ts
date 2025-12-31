@@ -583,7 +583,7 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     givingDescription: Schema.Attribute.Text;
     givingImg: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    heroDescription: Schema.Attribute.Text;
+    heroDescription: Schema.Attribute.Blocks;
     heroImg: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<

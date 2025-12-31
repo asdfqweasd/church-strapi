@@ -12,7 +12,7 @@
   "pluginOptions": {},
   "attributes": {
     "heroDescription": {
-      "type": "text"
+      "type": "blocks"
     },
     "heroImg": {
       "type": "media",
