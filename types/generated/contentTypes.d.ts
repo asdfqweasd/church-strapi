@@ -635,6 +635,7 @@ export interface ApiMinistriesPageMinistriesPage
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    title1: Schema.Attribute.String;
     title1Description: Schema.Attribute.Text & Schema.Attribute.Required;
     title2: Schema.Attribute.String & Schema.Attribute.Required;
     title2Description: Schema.Attribute.Text & Schema.Attribute.Required;

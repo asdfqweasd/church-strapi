@@ -11,6 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "title1": {
+      "type": "string"
+    },
     "title1Description": {
       "type": "text",
       "required": true
